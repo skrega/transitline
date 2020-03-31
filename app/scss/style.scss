@@ -6,7 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 171px;
+    min-height: 154px;
     max-width: 1920px;
     width: 100%;
 }
@@ -1634,6 +1634,9 @@
  #check-menu {
     display: none;
  }
+ .menu-chek{
+    display: none;
+ }
 // media
 @media (max-width: 1800px){
     .page-autopark__item{
@@ -1720,7 +1723,9 @@
     .menu__list{
         display: none;
     }
-   
+    .menu-chek{
+        display: block;
+    }
     .menu__btn{
         display: block;
         width: 30px;
@@ -1728,6 +1733,8 @@
         label{
             position: absolute;
             padding-left: 37px;
+            top: 3px;
+            font-weight: 300;
             color: #fff;
         }
         div{

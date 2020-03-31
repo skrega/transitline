@@ -179,10 +179,9 @@ $(function () {
 
     });
 
-    // chevron.onclick = function () {
-    //     this.classList.toggle('rotate')
-    // }
     $('.chevrone').on('click', function () {
         this.classList.toggle('rotate')
     });
+
+    new WOW().init();
 });
