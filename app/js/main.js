@@ -133,17 +133,13 @@ $(function () {
             },
         ]
     });
-
-    // $('.menu__btn').on('click', function () {
-    //     $('.menu__list').slideToggle();
-    // });
-    $('.check-menu').on('click', function () {
+    
+    $('.menu-btn').on('click', function () {
         $('.menu__list').slideToggle();
     });
 
-    $('.search-btn').on('click', function () {
-        $('.header__search').addClass('active');
-        $('.search-btn').addClass('active');
+    $('.menu-btn').on('click', function () {
+        $(".menu-btn").toggleClass("active");
     });
 
     $('select').styler();

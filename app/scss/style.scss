@@ -337,6 +337,9 @@
         outline: none;
     }
 }
+.menu-btn__title{
+    display: none;
+}
 
 // end header
 // start relocation
@@ -402,10 +405,6 @@
     line-height: 30px;
     font-weight: 500;
     margin-bottom: 118px;
-}
-
-.advantages__inner {
-
 }
 
 .advantages__items {
@@ -491,10 +490,7 @@
 .services__title{
     margin-bottom: 50px;
 }
-.services__slider{
-    // display: flex;
-    // justify-content: space-between;
-}
+
 .tabs{
     display: flex;
 }
@@ -736,11 +732,8 @@
     box-shadow: none;
     color: #333;
     text-shadow: none;
-    // max-width: 780px ;
-    // width: 100%;
 }
 .jq-selectbox__select-text{
-    //width: 708px !important;
     width: 100% !important;
     color: rgba(68, 68, 68, 0.7);
     font-size: 14px;
@@ -1114,13 +1107,6 @@
     font-size: 18px;
     font-weight: 500;
     color: #fead38;
-    //position: relative;
-    // &::before{
-    //     content: url(../images/icon/chevron-down.png);
-    //     position: absolute;
-    //     right: 0;
-    //     display: none;
-    // }
 }
 
 .footer__list {
