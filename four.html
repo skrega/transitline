@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТРАНЗИТLINE</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,600&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css" >
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="header__adaptive">
+        <div class="container">
+            <div class="header__adaptive-inner">
+                <div class="header__phone-link">
+                    <a href="tel:88009950809">8 (800) 995-08-09</a>
+                    <a href="tel:74959950809" class="header__phone-icon">7 (495) 995-08-09</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__adaptiv-user">
+        <div class="container">
+            <a href="#" class="header__persons-physical">
+                Физ. лицам
+            </a>
+            <a href="#" class="header__persons-legal">
+                Юр. лицам
+            </a>
+        </div>
+    </div>
+    <header class="header" style="background-image: url(images/header-bg.jpg);">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__persons">
+                    <a href="#" class="header__persons-physical">
+                        Физическим лицам
+                    </a>
+                    <a href="#" class="header__persons-legal">
+                        Юридическим лицам
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu" style="background-color: rgba(0, 0, 0, 0.9)">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__contacts">
+                        <div class="header__info">
+                            <div class="header__adress">
+                                <p class="header__adress-map">Адресс:</p>
+                                <a href="#">г. Москва г. Троицк мкр. В д. 55</a>
+                            </div>
+                            <div class="header__schedule">
+                                <p class="header__schedule-clock">График работы:</p>
+                                <a href="#">Ежедневно с 8:00 до 21:00</a>
+                            </div>
+                        </div>
+                        <div class="header__phone">
+                            <div class="header__phone-link">
+                                <a href="tel:88009950809">8 (800) 995-08-09</a>
+                                <a href="tel:74959950809" class="header__phone-icon">7 (495) 995-08-09</a>
+                            </div>
+                            <div class="header__phone-btn">
+                                <a data-fancybox data-src="#callback" href="javascript:;">Обратный звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__menu-inner">
+                    <nav class="header-menu">
+                        <input type="checkbox" id="check-menu">
+                        <label for="check-menu">Меню</label>
+                        <div class="burger-line first"></div>
+                        <div class="burger-line second"></div>
+                        <div class="burger-line third"></div>
+                        <div class="burger-line fourth"></div>
+                        <ul class="menu__list">
+                            <li class="menu__list-li">
+                                <a class="icon-chevron-down" href="#">Услуги</a>
+                                <div class="menu__items">
+                                    <ul class="menu__dropdown" >
+                                        <li><a href="#">Офисный переезд</a></li>
+                                        <li><a href="#">Автомобильные перевозки</a></li>
+                                        <li><a href="#">Грузовое такси</a></li>
+                                        <li><a href="#">Перевозка мебели</a></li>
+                                    </ul>
+                                    <ul class="menu__dropdown">
+                                        <li><a href="#">Офисный переезд</a></li>
+                                        <li><a href="#">Автомобильные перевозки</a></li>
+                                        <li><a href="#">Грузовое такси</a></li>
+                                        <li><a href="#">Перевозка мебели</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Автопарк</a></li>
+                            <li><a href="#">Калькулятор</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li class="menu__list-li">
+                                <a class="icon-chevron-down" href="#">Акции</a>
+                                <div class="menu__items">
+                                    <ul class="menu__dropdown">
+                                        <li><a href="#">Офисный переезд</a></li>
+                                        <li><a href="#">Автомобильные перевозки</a></li>
+                                        <li><a href="#">Грузовое такси</a></li>
+                                        <li><a href="#">Перевозка мебели</a></li>
+                                    </ul>
+                                    <ul class="menu__dropdown">
+                                        <li><a href="#">Офисный переезд</a></li>
+                                        <li><a href="#">Автомобильные перевозки</a></li>
+                                        <li><a href="#">Грузовое такси</a></li>
+                                        <li><a href="#">Перевозка мебели</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__search">
+                        <form>
+                            <input type="search" placeholder="Что вы ищите?">
+                            <button type="submit" class="search-btn">
+                                <img src="images/icon/research.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__inner">
+                <ul class="breadcrumbs__list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог транспорта</a></li>
+                    <li><span>Автомобили</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="moving">
+        <div class="container">
+            <div class="moving__title">
+                Покупка жилья в другом городе
+            </div>
+            <div class="moving__inner">
+                <img src="images/content/moving-img.jpg" alt="">
+                <div class="moving__text">
+                    <span>Перевозки грузов автомобильным транспортом</span> – одни из самых оперативных способов
+                    доставки на различные расстояния. Наша компания владеет собственным автопарком и имеет партнеров по
+                    всей территории России. Все машины оборудованы специально для перевозки личного имущества: имеются
+                    крепежи и ремни, кузов максимально герметичен. Обширный автопарк – это возможность подбора
+                    автомобиля для любого груза, невзирая на его вес, объем и отличительные характеристики, что
+                    гарантирует клиенту отсутствие переплат на неиспользуемый объем или лишние килограммы.
+                    <p> 
+                        Чаще всего для квартирных переездом используются автомобили грузоподъемностью от 1,5 до 3-х тонн
+                        (Газель, ЗИЛ «Бычок»), но при необходимости мы предоставим для Вас транспорт с большей
+                        грузоподъемность и объемом кузова (от 5 до 20 тонн). Сложно определится с выбором автомобиля?
+                        Позвоните на линию для бесплатной консультации специалиста.
+                    </p>
+                </div>
+            </div>
+            <div class="moving-text">
+                <div class="moving-text__title">
+                    Пример описания текста
+                </div>
+                <p>
+                    <span>Переезд в другую страну</span> – это грандиозное и масштабное событие, которое требует
+                    большой
+                    ответственности и собранности. Подготовиться необходимо тщательно, чтобы переезд не обернулся
+                    сплошным стрессом и разочарованием. Следует точно понимать в какую страну планируете переезд, с
+                    какими целями и как сложно получить гражданство.
+                </p>
+                <p>
+                    <span>Первый шаг конечно</span> - выбор страны для ПМЖ. Если говорить, о том что,
+                    где проще стать гражданином, то
+                    это такие страны как: Мальта, Кипр, Испания, Греция, Венгрия, Швейцария, Португалия,
+                    Великобритания.
+                    На их территории действуют специальные льготные программы для эмигрантов. А вот в Норвегии,
+                    Дании,
+                    Франции, Швеция, Германии срок получения ПМЖ составит от 5 до 10 лет.
+                </p>
+                <div class="information__list-title">
+                    Существует 3 способа для получения гражданства:
+                </div>
+                <ul class="information-list">
+                    <li>инвестировать в экономику государства;</li>
+                    <li>получить сначала вид на жительство;</li>
+                    <li>купить недвижимость в стране куда планируете переезжать;</li>
+                    <li> Документы для переезда на ПМЖ в Россию.</li>
+                </ul>
+                <p>
+                    Всем переезжающим в РФ иностранцам нужно ознакомиться со стандартными правилами. Первое время
+                    пребывание на территории России осуществляется по визе или иному документу, далее- через 1 год
+                    (если
+                    нет льгот) можно оформить вид на жительство. А для получения гражданства необходимо проживать
+                    <span class="information-yellow">в России 5 лет</span>.
+                </p>
+                <div class="information__list-title">
+                    Имеются следующие варианты переезда на постоянное место жительство в Россию:
+                </div>
+                <ul class="information-list">
+                    <li>участие в Государственной программе переселения соотечественников;</li>
+                    <li>получение ПМЖ по упрощенной форме для русскоговорящих, или родственников граждан;</li>
+                    <li>временное убежище для жителей Украины.</li>
+                    <li>присвоение статуса «беженца»</li>
+                    <li>оформление вида на жительства, в дальнейшем - гражданства</li>
+                </ul>
+                <div class="information__inner-title">
+                    ПМЖ по общей форме. Кто прожил 5 лет и более на территории России.
+                </div>
+                <p>
+                    Военнослужащие могут претендовать на гражданство спустя 3 года службы в рядах ВС РФ.
+                </p>
+                <p>
+                    Одним из основных моментов является то, что в РФ необходимо именно проживать, а не приезжать на
+                    определенный срок. Максимально допустимый срок отсутствия– 3 месяца, если он превышен, то
+                    календарный год не засчитывается.
+                </p>
+                <p>
+                    Для получения общегражданского паспорта необходимо свободно владеть русским языком, иметь
+                    постоянную
+                    работу и доход, а также написать отказ от прежнего гражданства.
+                </p>
+                <div class="information__inner-text">
+                    Международные перевозки автотранспортом
+                </div>
+                <p>
+                    Международная перевозка грузов автотранспортом представляет собой пересечение двух и более
+                    границ
+                    государств. Примерно 50 % перевозок внешнеторговых грузов приходятся на автомобильный транспорт.
+                    И
+                    основным преимуществом является доставка «от двери до двери».
+                </p>
+                <p>
+                    Основные особенности международных автоперевозок - это получение разрешения на пересечение
+                    границы
+                    иностранного государства, обеспечение безопасности перевозки, техническое обслуживание
+                    иностранного транспорта.
+                </p>
+                <p>
+                    Компания «С Переездом!» поможет организовать Вам переезд в другую страну и возьмёт на себя все
+                    заботы по документации.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="work__title">
+            Фото по выбранной тематике
+            </div>
+            <div class="work__slider">
+                <div class="work__item">
+                    <img src="images/content/work-1.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-2.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-3.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-4.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-1.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-2.jpg" alt="">
+                </div>
+                <div class="work__item">
+                    <img src="images/content/work-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="citizenship">
+        <div class="container">
+            <div class="citizenship__inner">
+                <p>
+                    Военнослужащие могут претендовать на гражданство спустя 3 года службы в рядах ВС РФ.
+                </p>
+                <p>
+                    Одним из основных моментов является то, что в РФ необходимо именно проживать, а не приезжать на
+                    определенный срок. Максимально допустимый срок отсутствия– 3 месяца, если он превышен, то
+                    календарный год не засчитывается.
+                </p>
+                <p>
+                    Для получения общегражданского паспорта необходимо свободно владеть русским языком, иметь
+                    постоянную
+                    работу и доход, а также написать отказ от прежнего гражданства.
+                </p>
+                <div class="citizenship__title">
+                    <p>
+                        Военнослужащие могут претендовать на гражданство спустя 3 года службы в рядах ВС РФ.
+                    </p>
+                    <p>
+                        Одним из основных моментов является то, что в РФ необходимо именно проживать, а не приезжать на
+                        определенный срок. Максимально допустимый срок отсутствия– 3 месяца, если он превышен, то
+                        календарный год не засчитывается.
+                    </p>
+                </div>
+                <p>
+                    Военнослужащие могут претендовать на гражданство спустя 3 года службы в рядах ВС РФ.
+                </p>
+                <p>
+                    Одним из основных моментов является то, что в РФ необходимо именно проживать, а не приезжать на
+                    определенный срок. Максимально допустимый срок отсутствия– 3 месяца, если он превышен, то
+                    календарный год не засчитывается.
+                </p>
+                <p>
+                    Для получения общегражданского паспорта необходимо свободно владеть русским языком, иметь постоянную
+                    работу и доход, а также написать отказ от прежнего гражданства.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col-logo">
+                    <div class="footer__logo">
+                        <a href="#">
+                            <img src="images/footer-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__copy">
+                        <span>© транзит line 2020</span>
+                        Организация перевозок и
+                        переездов по России и СНГ
+                    </div>
+                </div>
+                <div class="footer__col footer__col-work">
+                    <div class="footer__title">
+                        Перечень работ
+                    </div>
+                    <div class="chevron-conten">
+                        <ul class="footer__list">
+                            <li><a href="#"> Перевозка вещей</a></li>
+                            <li><a href="#"> Переезд офиса</a></li>
+                            <li><a href="#">Переезд квартиры</a></li>
+                            <li><a href="#">Перевозка мебели</a></li>
+                            <li><a href="#">Услуги грузчиков</a></li>
+                            <li><a href="#">Перевозка техники</a></li>
+                            <li><a href="#">Перевозка сейфов</a></li>
+                            <li><a href="#">Перевозка пианино</a></li>
+                            <li><a href="#">Услуги разнорабочих</a></li>
+                            <li><a href="#">Домашний переезд</a></li>
+                            <li><a href="#"> Грузовое такси</a></li>
+                            <li><a href="#">Перевозка</a></li>
+                            <li><a href="#">стройматериалов</a></li>
+                        </ul>
+                    </div>
+                    <div class="chevrone" id="chevron"></div>
+                    <div class="footer-list">
+                        <ul class="footer__list">
+                            <li><a href="#"> Перевозка вещей</a></li>
+                            <li><a href="#"> Переезд офиса</a></li>
+                            <li><a href="#">Переезд квартиры</a></li>
+                            <li><a href="#">Перевозка мебели</a></li>
+                            <li><a href="#">Услуги грузчиков</a></li>
+                            <li><a href="#">Перевозка техники</a></li>
+                            <li><a href="#">Перевозка сейфов</a></li>
+                            <li><a href="#">Перевозка пианино</a></li>
+                            <li><a href="#">Услуги разнорабочих</a></li>
+                            <li><a href="#">Домашний переезд</a></li>
+                            <li><a href="#"> Грузовое такси</a></li>
+                            <li><a href="#">Перевозка</a></li>
+                            <li><a href="#">стройматериалов</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-about">
+                    <div class="footer__title">
+                        О компании
+                    </div>
+                    <div class="chevron-conten">
+                        <ul class="footer__list">
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Сотрудники</a></li>
+                            <li><a href="#">Медиатека</a></li>
+                            <li><a href="#">Презентации</a></li>
+                        </ul>
+                    </div>
+                    <div class="chevrone"></div>
+                    <div class="footer-list">
+                        <ul class="footer__list">
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Сотрудники</a></li>
+                            <li><a href="#">Медиатека</a></li>
+                            <li><a href="#">Презентации</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col footer__col-autopark">
+                        <div class="footer__title">
+                            Автопарк
+                        </div>
+                        <div class="chevron-conten">
+                            <ul class="footer__list">
+                                <li><a href="#">Все машины</a></li>
+                                <li><a href="#">Каблучок</a></li>
+                                <li><a href="#">Гидролифт</a></li>
+                                <li><a href="#">Газель</a></li>
+                                <li><a href="#">Фургон 10 тонник</a></li>
+                                <li><a href="#">Фура 20 тонник</a></li>
+                            </ul>
+                        </div>
+                        <div class="chevrone"></div>
+                        <div class="footer-list">
+                            <ul class="footer__list">
+                                <li><a href="#">Все машины</a></li>
+                                <li><a href="#">Каблучок</a></li>
+                                <li><a href="#">Гидролифт</a></li>
+                                <li><a href="#">Газель</a></li>
+                                <li><a href="#">Фургон 10 тонник</a></li>
+                                <li><a href="#">Фура 20 тонник</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-special">
+                    <div class="footer__title">
+                        Спецпредложение
+                    </div>
+                    <div class="chevron-conten">
+                        <ul class="footer__list">
+                            <li><a href="#">VIP переезд</a></li>
+                            <li><a href="#">Корпоративным клиентам</a></li>
+                            <li><a href="#">Доставка интернет-магазинам</a></li>
+                            <li><a href="#">Аренда тележек</a></li>
+                            <li><a href="#">Аренда пластиковых ящиков</a></li>
+                            <li><a href="#">Стоимость</a></li>
+                            <li><a href="#">Акции</a></li>
+                        </ul>
+                    </div>
+                    <div class="chevrone"></div>
+                    <div class="footer-list">
+                        <ul class="footer__list">
+                            <li><a href="#">VIP переезд</a></li>
+                            <li><a href="#">Корпоративным клиентам</a></li>
+                            <li><a href="#">Доставка интернет-магазинам</a></li>
+                            <li><a href="#">Аренда тележек</a></li>
+                            <li><a href="#">Аренда пластиковых ящиков</a></li>
+                            <li><a href="#">Стоимость</a></li>
+                            <li><a href="#">Акции</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col footer__col-contacts">
+                    <div class="footer__title">
+                        Контакты
+                    </div>
+                    <div class="chevron-conten">
+                        <div class="footer-contact__title">
+                            График работы:
+                        </div>
+                        <div class="footer-contact__text">
+                            Ежедневно с 8:00 до 21:00
+                        </div>
+                        <div class="footer-contact__title">
+                            Адрес:
+                        </div>
+                        <div class="footer-contact__text footer-contact__address">
+                            г. Москва г. Троицк мкр.
+                            В д. 55
+                        </div>
+                    </div>
+                    <div class="chevrone"></div>
+                    <div class="footer__col-info">
+                        <div class="footer-contact__title">
+                            График работы:
+                        </div>
+                        <div class="footer-contact__text">
+                            Ежедневно с 8:00 до 21:00
+                        </div>
+                    </div>
+                    <div class="footer__col-info">
+                        <div class="footer-contact__title">
+                            Адрес:
+                        </div>
+                        <div class="footer-contact__text footer-contact__address">
+                            г. Москва г. Троицк мкр.
+                            В д. 55
+                        </div>
+                    </div>
+                    <div class="footer__col-phone">
+                        <a href="tel:88009950809">8 (800) 995-08-09</a>
+                        <a href="tel:74959950809">7 (495) 995-08-09</a>
+                    </div>
+                    <div class="footer__col-social">
+                        <div class="footer-social__title">
+                            Мы в социальных сетях:
+                        </div>
+                        <ul class="footer-social__link">
+                            <li><a href="#">
+                                    <img src="images/icon/goggle.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-twitter">
+                                    <img src="images/icon/twitter.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-email">
+                                    <img src="images/icon/email.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-facebook">
+                                    <img src="images/icon/facebook.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-wifi">
+                                    <img src="images/icon/wife.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-vk">
+                                    <img src="images/icon/vk.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-mail">
+                                    <img src="images/icon/mail.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-yandex">
+                                    <img src="images/icon/yandex.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-pencel">
+                                    <img src="images/icon/pencil.png" alt="">
+                                </a></li>
+                            <li><a href="#" class="link-odnoklasniki">
+                                    <img src="images/icon/odnoclasniki.png" alt="">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="callback">
+        <div class="callback__title">
+            Хотите чтобы мы перезвонили?
+        </div>
+        <div class="callback__text">
+            Заполните форму и мы вам перезвоним в ближайшее время
+        </div>
+        <div class="callback__form">
+            <form>
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <input id="consent-callback" type="checkbox">
+                <label for="consent-callback">Соглашаюсь на обработку персональных данных</label>
+                <button data-fancybox data-src="#thanks-contacting" href="javascript:;">Перезвоните мне</button>
+            </form>
+        </div>
+    </div>
+    <div id="thanks-contacting">
+        <div class="thanks-contacting__wrapper">
+            <img src="images/content/modal-img.png" alt="">
+            <div class="thanks-contacting__inner">
+                <div class="thanks-contacting__title">
+                    Спасибо за обращение!
+                </div>
+                <div class="thanks-contacting__text">
+                    Наши сотрудники свяжутся
+                    с вами в ближайшее время!
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
